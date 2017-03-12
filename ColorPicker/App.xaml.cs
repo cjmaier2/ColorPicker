@@ -8,7 +8,7 @@ namespace ColorPicker
         {
             InitializeComponent();
 
-            MainPage = new ColorPickerPage();
+            MainPage = new NavigationPage(new ColorPickerPage());
         }
 
         protected override void OnStart()
